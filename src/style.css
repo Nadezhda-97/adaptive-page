@@ -156,3 +156,88 @@ header {
 #searchform input:focus {
   outline: 2px solid #EBEBE3;
 }
+
+/* -- стили для основного содержимого (посты) -- */
+
+/* левый контейнер */
+.posts-list {
+  float: left;
+  margin-bottom: 30px;
+  width: 64%;
+}
+
+/* отдельный пост (статья и пр.) */
+.post {
+  margin-bottom: 35px;
+}
+
+.post-image {
+  margin-bottom: 30px;
+}
+
+.category {
+  margin-bottom: 15px;
+}
+
+.category a {
+  color: #F8B763;
+  text-transform: uppercase;
+}
+
+.post-title {
+  margin-bottom: 12px;
+  font-size: 26px;
+}
+
+.post-content p {
+  line-height: 1.5;
+  padding-bottom: 1em;
+}
+
+/* блок с кнопкой "продолжить чтение" и кнопками социальных сетей */
+.post-footer {
+  margin-top: 15px;
+  position: relative;
+  border-top: 1px solid #EBEBE3; /* линия над кнопками */
+  border-bottom: 1px solid #EBEBE3; /* линия под кнопками */
+}
+
+.more-link {
+  background: #3C3D41;
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+
+  position: relative;
+  display: inline-block;
+
+  line-height: 44px;
+  padding: 0 22px;
+}
+
+.post-social {
+  font-size: 12px;
+  position: absolute;
+  left: auto;
+  right: 0;
+  top: 50%;
+  padding: 0;
+  text-align: right;
+  transform: translateY(-50%);
+}
+
+.post-social a {
+  color: #F8B763;
+  width: 25px;
+  height: 25px;
+  line-height: 23px;
+  text-align: center;
+
+  border: 1px solid;
+  border-radius: 50%;
+
+  display: inline-block;
+  margin-left: 8px;
+}
